@@ -51,6 +51,7 @@ RUN set -eux; \
     	zip \
     	apcu \
 		opcache \
+    	open-telemetry/opentelemetry-php-instrumentation@main \
     ;
 
 ###> recipes ###
